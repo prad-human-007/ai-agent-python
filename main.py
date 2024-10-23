@@ -23,7 +23,7 @@ async def entrypoint(ctx: JobContext):
     assitant = VoiceAssistant(
         vad=silero.VAD.load(),
         stt=deepgram.STT(),
-        llm=openai.LLM(),
+        llm=openai.LLM.with_cerebras(),
         tts=openai.TTS(),
         chat_ctx=initial_ctx,
     )

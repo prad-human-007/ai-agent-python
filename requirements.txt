@@ -3,3 +3,4 @@ livekit-plugins-openai
 livekit-plugins-silero 
 livekit-plugins-deepgram
 python-dotenv
+cerebras_cloud_sdk
