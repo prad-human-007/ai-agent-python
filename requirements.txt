@@ -4,3 +4,8 @@ livekit-plugins-silero
 livekit-plugins-deepgram
 python-dotenv
 cerebras_cloud_sdk
+aiortc
+fastapi
+python-dotenv
+uvicorn
+python-socketio

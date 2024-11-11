@@ -13,7 +13,7 @@ async def entrypoint(ctx: JobContext):
     initial_ctx = llm.ChatContext().append(
         role="system",
         text=(
-            "You are a voice assistant created to teach english to students. Your interface with users will be voice."
+            "You are a voice assistant created to teach english to students. Your interface with users will be voice. Ignore all punctuations"
             "You should use fun and insightful responses, and avoiding usage of unpronouncable punctuation."
             "you can try games with them like repeat after me, give them very small story and ask questions. keep them interactive at every point"
         ),
