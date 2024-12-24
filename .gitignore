@@ -1,3 +1,4 @@
 /ai/
 .env
 __pycache__
+/models/
