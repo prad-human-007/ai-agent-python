@@ -2,6 +2,7 @@ livekit-agents
 livekit-plugins-openai 
 livekit-plugins-silero 
 livekit-plugins-deepgram
+livekit-plugins-turn-detector
 python-dotenv
 cerebras_cloud_sdk
 aiortc

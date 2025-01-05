@@ -21,7 +21,6 @@ from faster_whisper import WhisperModel
 import io
 
 MODEL_TYPE, RUN_TYPE, COMPUTE_TYPE, NUM_WORKERS, CPU_THREADS, WHISPER_LANG = "tiny.en", "cpu", "int8", 10, 8, "en"
-model = WhisperModel(model_size_or_path="tiny.en", device="cpu")
 whisper_model = WhisperModel (
     model_size_or_path=MODEL_TYPE,
     device=RUN_TYPE,
@@ -137,4 +136,5 @@ class myClass(stt.STT):
                 body=e.body,
             )
         except Exception as e:
+            print(f"Error in transcription: {e}")
             raise APIConnectionError() from e
